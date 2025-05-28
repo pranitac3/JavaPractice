@@ -1,10 +1,11 @@
-package com.practice.javapractice;
+package com.practice.javapractice.Interface;
 
-public class HSBCBank implements USBank, BrazilBank{
+public class HSBCBank implements USBank, BrazilBank {
 
     @Override
     public void credit() {
         System.out.println("Credit");
+        System.out.println(HSBCBank.min_bal);
     }
 
     @Override
@@ -31,4 +32,6 @@ public class HSBCBank implements USBank, BrazilBank{
     public void mutualFund() {
         System.out.println("Mutual Fund");
     }
+
+
 }

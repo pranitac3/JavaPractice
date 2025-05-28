@@ -1,4 +1,4 @@
-package com.practice.javapractice;
+package com.practice.javapractice.Interface;
 
 public interface BrazilBank {
 

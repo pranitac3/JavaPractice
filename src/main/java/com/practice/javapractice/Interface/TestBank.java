@@ -1,4 +1,4 @@
-package com.practice.javapractice;
+package com.practice.javapractice.Interface;
 
 public class TestBank {
 
@@ -24,8 +24,10 @@ public class TestBank {
         b.transferMoney();
        // b.educationalLoan();  -This will give error because this is belongs to HSBCBank class - these are not overridden method. Only and oly overridden method can be accessible
 
-        System.out.println("USBank.min_bal"); //min_bal is by default static nature. then we can access it by classname or interface name.
+        System.out.println(USBank.min_bal); //min_bal is by default static nature. then we can access it by classname or interface name.
 
-        //USBank.min_bal = 200;  //min_bal is static , u can not change it's value. tThis is not allowed.
+        //USBank.min_bal = 200;  //min_bal is static , u can not change it's value. This is not allowed.
+
+        System.out.println(USBank.min_bal);
     }
 }
