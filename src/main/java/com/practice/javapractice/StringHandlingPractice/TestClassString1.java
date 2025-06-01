@@ -26,6 +26,11 @@ public class TestClassString1 {
         System.out.println(student_class.toLowerCase());
         System.out.println(student_class.compareTo(student_class_compare)); //B comes after A , so it's -1 output
 
+        //Difference between String Buffer
+
+
+
+
 
 
 
